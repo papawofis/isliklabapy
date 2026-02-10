@@ -4,22 +4,6 @@
 
 С помощью формулы ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5 рассчитаем дистанцию от одного города до другого
 
-###### Добавленная часть кода
->``` python
->for site1, coords1 in sites.items():
->    city_distances = {}
->    for site2, coords2 in sites.items():
->        if site1 != site2:
->            x1, y1 = coords1
->            x2, y2 = coords2
->            distance = ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5
->            city_distances[site2] = round(distance,2)
->    
->    distances[site1] = city_distances
->
->print(distances)
->```
-
 ###### Результат
 >```
 >{'Moscow': {'London': 145.6, 'Paris': 130.38}, 'London': {'Moscow': 145.6, 'Paris': 42.43}, 'Paris': {'Moscow': 130.38, 'London': 42.43}}
@@ -34,4 +18,97 @@
 2. Вывести на консоль True, если точка point лежит внутри круга, False - не лежит;
 3. Аналогично для другой точки (point_2)
 
-Воспользуемся формулой площади круга: S=π*R^2
+![Alt text](image.png)
+
+
+
+
+# ЗАДАНИЕ 02_operations.py
+----
+#### Задание: Расставьте знаки операций "плюс", "минус", "умножение" и скобки между числами "1 2 3 4 5" так, что бы получилось число "25".
+```python
+res = (((3*4) / 2 )- 1) * 5
+print(res) 
+```
+
+
+# ЗАДАНИЕ 03_favorite_movies.py
+----
+#### Задание:  Выведите на консоль с помощью индексации строки, последовательно: первый фильм последний второй второй с конца
+![Alt text](image-1.png)
+
+
+# ЗАДАНИЕ 04_my_family.py
+----
+#### Задание:  Выведите на консоль рост отца в формате и Выведите на консоль общий рост вашей семьи как сумму ростов всех членов
+![Alt text](image-2.png)
+
+# ЗАДАНИЕ 05_zoo.py
+----
+#### Задание:посадите медведя (bear) между львом и кенгуру и выведите список на консоль, добавьте птиц из списка birds в последние клетки зоопарка и выведете, уберите слона и выведите список на консоль, выведите на консоль в какой клетке сидит лев (lion) и жаворонок (lark). Номера при выводе должны быть понятны простому человеку, не программисту.
+![Alt text](image-3.png)
+
+
+# ЗАДАНИЕ 06_songs_list.py
+----
+#### Задание:распечатайте общее время звучания трех песен: 'Halo', 'Enjoy the Silence' и 'Clean' в формате Три песни звучат ХХХ.XX минут,  распечатайте общее время звучания трех песен: 'Sweetest Perfection', 'Policy of Truth' и 'Blue Dress' А другие три песни звучат ХХХ минут
+![Alt text](image-4.png)
+
+
+# ЗАДАНИЕ 07_secret.py
+----
+#### Задание:Нужно его расшифровать и вывести на консоль в удобочитаемом виде. Должна получиться фраза на русском языке, например: как два байта переслать.
+![Alt text](image-5.png)
+
+
+# ЗАДАНИЕ 08_garden.py
+----
+#### Задание: создайте множество цветов, произрастающих в саду и на лугу garden_set =, meadow_set = , выведите на консоль все виды цветов ,  выведите на консоль те, которые растут и там и там , выведите на консоль те, которые растут в саду, но не растут на лугу, выведите на консоль те, которые растут на лугу, но не растут в саду
+![Alt text](image-6.png)
+
+
+# ЗАДАНИЕ 09_shopping.py
+----
+#### Задание: Создайте словарь цен на продкты следующего вида (писать прямо в коде). Указать надо только по 2 магазина с минимальными ценами
+![Alt text](image-7.png)
+
+
+# ЗАДАНИЕ 10_store.py
+----
+#### Задание: Рассчитать на какую сумму лежит каждого товара на складе например для лампывести стоимость каждого вида товара на складе: один раз распечать сколько всего столов и их общая стоимость, один раз распечать сколько всего стульев и их общая стоимость, и т.д. на складе Формат строки <товар> - <кол-во> шт, стоимость <общая стоимость> руб
+```python
+#Стол
+table_code = goods['Стол']
+table_batch1 = store[table_code][0]
+table_batch2 = store[table_code][1]
+
+table_quantity_total = table_batch1['quantity'] + table_batch2['quantity']
+table_cost_total = (table_batch1['quantity'] * table_batch1['price'] + 
+                    table_batch2['quantity'] * table_batch2['price'])
+print('Стол -', table_quantity_total, 'шт, стоимость', table_cost_total, 'руб')
+
+#Диван
+sofa_code = goods['Диван']
+sofa_batch1 = store[sofa_code][0]
+sofa_batch2 = store[sofa_code][1]
+
+sofa_quantity_total = sofa_batch1['quantity'] + sofa_batch2['quantity']
+sofa_cost_total = (sofa_batch1['quantity'] * sofa_batch1['price'] + 
+                   sofa_batch2['quantity'] * sofa_batch2['price'])
+print('Диван -', sofa_quantity_total, 'шт, стоимость', sofa_cost_total, 'руб')
+
+#Стул
+chair_code = goods['Стул']
+chair_batch1 = store[chair_code][0]
+chair_batch2 = store[chair_code][1]
+chair_batch3 = store[chair_code][2]
+
+chair_quantity_total = (chair_batch1['quantity'] + 
+                        chair_batch2['quantity'] + 
+                        chair_batch3['quantity'])
+chair_cost_total = (chair_batch1['quantity'] * chair_batch1['price'] + 
+                    chair_batch2['quantity'] * chair_batch2['price'] + 
+                    chair_batch3['quantity'] * chair_batch3['price'])
+print('Стул -', chair_quantity_total, 'шт, стоимость', chair_cost_total, 'руб')
+```
+![Alt text](image-8.png)
