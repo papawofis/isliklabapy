@@ -80,6 +80,12 @@ print(res)
 
 Шпаргалочка:
 1) git add .
+2) git status 
+3) git commit -m 'jxj'
+4) git push
+
+Шпаргалочка:
+1) git add .
 2) git status
 3) git commit -m 'jxj'git 
 4) git push
