@@ -25,7 +25,7 @@ point = (23, 34)
 #       формула так же есть в интернете
 #       квадратный корень - это возведение в степень 0.5
 #       операции сравнения дают булевы константы True и False
-if point[0] < 42 and point[1] < 42:
+if (( point[0]) ** 2 + (point[1]) ** 2) ** 0.5 < radius :
     print("True")
 else: 
     print("False")
@@ -34,7 +34,7 @@ else:
 point2 = (30, 30)
 # Если точка point_2 лежит внутри круга (radius = 42), то выведите на консоль True,
 # Или False, если точка лежит вовне круга.
-if point2[0] < 42 and point2[1] < 42:
+if (( point2[0]) ** 2 + (point2[1] ) ** 2) ** 0.5 < radius:
     print("True")
 else: 
     print("False")
