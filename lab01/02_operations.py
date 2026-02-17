@@ -11,5 +11,5 @@
 result = (1 + 2) * 3
 print(result)
 
-res = (((3*4) / 2 )- 1) * 5
+res = (1+2+3)*4+5
 print(res) 
