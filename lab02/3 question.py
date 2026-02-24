@@ -9,7 +9,7 @@ def dl(n):
 ds=[]
 def ps(n):
     for i in dl(n):
-        if i % 10 == 0 and i != 8 and i != n:
+        if i % 10 == 8 and i != 8 and i != n:
             return i
     return None
     
