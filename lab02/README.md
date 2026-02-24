@@ -76,7 +76,7 @@ while len(res) < 5:
 <img width="291" height="112" alt="image" src="https://github.com/user-attachments/assets/55afa104-e077-43e3-810d-1e0fe479caa6" />
 
 ###### Ссылки на используемые материалы:
-    1.Itertools в Python - Хабр
-    2.itertools — Functions creating iterators for efficient looping
-    3.Итерируем правильно: 20 приемов использования в Python модуля itertools
+    1.[Itertools в Python - Хабр](https://habr.com/ru/companies/otus/articles/529356/)
+    2.[itertools — Functions creating iterators for efficient looping](https://docs.python.org/3/library/itertools.html)
+    3.[Итерируем правильно: 20 приемов использования в Python модуля itertools](https://proglib.io/p/iteriruemsya-pravilno-20-priemov-ispolzovaniya-v-python-modulya-itertools-2020-01-03)
 
