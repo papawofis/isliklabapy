@@ -29,13 +29,12 @@ def p(z):
         res=str(z%5)+res
         z//=5
     return(res)
-def zd(z):
+def zd():
     s=5**36+5**24-25
     x=p(s)
     res= x.count("4")
     return res
-z=0
-print(zd(z))
+print(zd())
 ```
 ###### Результат
 <img width="439" height="31" alt="image" src="https://github.com/user-attachments/assets/25810f91-1846-412b-ad95-0a9f4db04294" />
@@ -58,7 +57,7 @@ def dl(n):
 ds=[]
 def ps(n):
     for i in dl(n):
-        if i % 10 == 0 and i != 8 and i != n:
+        if i % 10 == 8 and i != 8 and i != n:
             return i
     return None
     
@@ -73,7 +72,8 @@ while len(res) < 5:
     nc+=1
 ```
 ###### Результат
-<img width="291" height="112" alt="image" src="https://github.com/user-attachments/assets/55afa104-e077-43e3-810d-1e0fe479caa6" />
+<img width="330" height="95" alt="image" src="https://github.com/user-attachments/assets/e8c54fbd-8ea8-40ba-b9dd-204c80d2a156" />
+
 
 #### Ссылки на используемые материалы
 
