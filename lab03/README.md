@@ -31,7 +31,7 @@ print(rper(add1,add2,res=[]))
 
 ЗАДАНИЕ 02.py
 --------
-#### Задание: написать функцию для расчета \[x_n = \sqrt{3 + \sqrt{3 + \sqrt{3 + \sqrt{3 + \ldots + \sqrt{3}}}}} \quad \text{(n корней)}\]
+#### Задание: написать функцию для расчета $x_n = \sqrt{3 + \sqrt{3 + \sqrt{3 + \sqrt{3 + \ldots + \sqrt{3}}}}} \quad \text{(n корней)}$ 
 ```python
 from sys import *
 
