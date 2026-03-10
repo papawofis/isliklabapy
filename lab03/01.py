@@ -1,22 +1,24 @@
 def per(add1,add2):
-    pers= set(add1) & set(add2)
-    return pers
+    s=[]
+    for i in add1:
+        if i not in s and i in add2:
+            s.append(i)
+    return s
 
 
-def rper(add1, add2, res = None):
-    if add1 is None:
-        res=[]
-    if len(add1) == 0: 
-        return res
-    id = add1[0]
-    if (id in add2) and id not in res:
-        res.append(id)
-    return rper(add1[1:],add2,res)
+def rper(add1, add2):
+    if not add1 or not add2:
+        return []
+    if add1[0] in add2 and add1[0] not in add1[1:]:
+        return [add1[0]] + rper(add1[1:], add2)
+    else:
+        return rper(add1[1:], add2)
+    
 
 
-add1=[1,2,3,4]
+add1=[1,2,3,4,2]
 
 add2=[2,3,4,6,8]
 
 print(list(per(add1,add2)))
-print(rper(add1,add2,res=[]))
+print(rper(add1,add2))
