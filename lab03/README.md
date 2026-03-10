@@ -57,6 +57,6 @@ print(x(n))
 <img width="222" height="50" alt="image" src="https://github.com/user-attachments/assets/e1c5ccef-a273-458c-86e6-6a7cf282a559" />
 
 ##### Используемые материалы:
-[Рекурсия с нуля Python](Пиhttps://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://www.youtube.com/watch%3Fv%3Dw3FlW2THtUk&ved=2ahUKEwi8g4XQ3pSTAxX6gv0HHTFMAscQuAJ6BAgJEAI&usg=AOvVaw2XY2AK2rms1m6S0adgg_-i)
+[Рекурсия с нуля Python](https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://www.youtube.com/watch%3Fv%3Dw3FlW2THtUk&ved=2ahUKEwi8g4XQ3pSTAxX6gv0HHTFMAscQuAJ6BAgJEAI&usg=AOvVaw2XY2AK2rms1m6S0adgg_-i)
 
 
