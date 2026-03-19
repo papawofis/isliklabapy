@@ -1,29 +1,48 @@
-АДАНИЕ 01.py
+ЗАДАНИЕ 01.py
 --------
 #### Задание: замыкание реализующее последовательность Фибоначчи.
 ```python
-def per(add1,add2):
-    pers= set(add1) & set(add2)
-    return pers
+def dec(func):
+    cache = {}  # словарь
+    
+    def wrapper(*args, **kwargs):
+        key = (args, tuple(kwargs.items()))  # ключик для кэширки
+        
+        if key in cache:
+            print(f"берем из кэша{args}")
+            return cache[key]
+        
+        print(f"считаем для аргументов{args}")
+        result = func(*args, **kwargs)
+        cache[key] = result
+        return result
+    
+    return wrapper
 
-
-def rper(add1, add2, res = None):
-    if add1 is None:
-        res=[]
-    if len(add1) == 0: 
+@dec
+def fib():
+    a,b=0,1
+    def next():
+        nonlocal a,b
+        res = a
+        a,b=b, a+b
         return res
-    id = add1[0]
-    if (id in add2) and id not in res:
-        res.append(id)
-    return rper(add1[1:],add2,res)
+    return next
 
 
-add1=[1,2,3,4]
-
-add2=[2,3,4,6,8]
-
-print(list(per(add1,add2)))
-print(rper(add1,add2,res=[]))
+fi = fib()
+print(fi()) 
+print(fi())  
+print(fi())  
+print(fi())  
+print(fi())  
+print(fi())  
+print(fi())  
 ```
 ###### Результат
-<img width="122" height="55" alt="image" src="https://github.com/user-attachments/assets/f2b2c1fb-963e-4feb-b655-4598e617a59c" />
+<img width="442" height="176" alt="image" src="https://github.com/user-attachments/assets/cace691d-75ef-47c5-b3b4-0f69b2c6ffd9" />
+
+ЗАДАНИЕ 02.py
+--------
+#### Задание: создать декоратор для кэширования результатов выполнения функций.
+```python
