@@ -94,5 +94,7 @@ print(fib3(3))
 <img width="679" height="172" alt="image" src="https://github.com/user-attachments/assets/6c82a0f8-1850-4dad-93c1-a9a9174cdd19" />
 
 ##### Используемые материалы:
+
 [Вложенные циклы Python]([https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://www.youtube.com/watch%3Fv%3Dw3FlW2THtUk&ved=2ahUKEwi8g4XQ3pSTAxX6gv0HHTFMAscQuAJ6BAgJEAI&usg=AOvVaw2XY2AK2rms1m6S0adgg_-i](https://yandex.ru/video/preview/17052291634513813706?from=tabbar&parent-reqid=1773922417081846-14805252268414880922-balancer-l7leveler-kubr-yp-sas-21-BAL&text=вложенные+циклы+питон))
+
 [Декораторы в Python]([[https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://www.youtube.com/watch%3Fv%3Dw3FlW2THtUk&ved=2ahUKEwi8g4XQ3pSTAxX6gv0HHTFMAscQuAJ6BAgJEAI&usg=AOvVaw2XY2AK2rms1m6S0adgg_-i](https://yandex.ru/video/preview/17052291634513813706?from=tabbar&parent-reqid=1773922417081846-14805252268414880922-balancer-l7leveler-kubr-yp-sas-21-BAL&text=вложенные+циклы+питон)](https://yandex.ru/video/preview/6684151160511895828?from=tabbar&parent-reqid=1773922469179096-11522774978742181951-balancer-l7leveler-kubr-yp-sas-21-BAL&reqid=1773922463487838-8967401134685398025-balancer-l7leveler-kubr-yp-sas-21-BAL&suggest_reqid=252038585173062242124634353451251&text=декоратор+питон))
