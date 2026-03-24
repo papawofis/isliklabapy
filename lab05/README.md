@@ -96,3 +96,9 @@ def test_gen_pass():
 ```
 ##### Результат:
 <img width="744" height="180" alt="image" src="https://github.com/user-attachments/assets/0b87fcfd-07c2-4d24-b949-36858c9b0d99" />
+
+##### Используемые материалы:
+
+[Модуль random в Python](https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://www.youtube.com/watch%3Fv%3DF5SYEE6eT28&ved=2ahUKEwiyxobx9LeTAxXHT1UIHXeBDHsQtwJ6BAgBEAE&usg=AOvVaw0yhKoWPsagm3PsOuyzg938)
+
+[Модуль string в Python](https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://www.youtube.com/watch%3Fv%3DKMsuQ61iUTo&ved=2ahUKEwjA27aj9beTAxURUFUIHXieAZAQtwJ6BAgGEAE&usg=AOvVaw1PGgX8g9CIAvlbXPJhjPpu)
