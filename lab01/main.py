@@ -28,3 +28,20 @@ point2 = (30, 30)
 print(in_circle(point2, radius))
 
 #02.oper
+
+#3.mov
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+from movies import first, last, second, second_last, get_movies
+
+mf = 'Терминатор, Пятый элемент, Аватар, Чужие, Назад в будущее'
+
+# Способ 1 - по отдельности
+print(first(mf))
+print(last(mf))
+print(second(mf))
+print(second_last(mf))
+
+print("---")
+
