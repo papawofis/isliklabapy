@@ -28,6 +28,17 @@ point2 = (30, 30)
 print(in_circle(point2, radius))
 
 #02.oper
+from expr import solve_25, calculate, check
+
+# Решение
+res = calculate()
+print(res)
+
+# Проверка
+print(check("1*(2+3)*4+5"))
+
+# Вывод выражения
+print(f"Решение: {solve_25()} = 25")
 
 #3.mov
 #!/usr/bin/env python3
