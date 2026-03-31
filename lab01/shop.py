@@ -48,7 +48,9 @@ sweets = {
     # TODO тут с клавиатуры введите другую сладость и далее словарь магазинов
 }
 # Указать надо только по 2 магазина с минимальными ценами
-for sweet, shops_list in sweets.items():
-    print(sweet)
-    for shop_info in shops_list:
-        print(f"   {shop_info['shop']}: {shop_info['price']} руб.")
+def zd(sweets=sweets):
+    for sweet, shops_list in sweets.items():
+        print(sweet)
+        for shop_info in shops_list:
+            print(f"   {shop_info['shop']}: {shop_info['price']} руб.")
+    return "Готово"

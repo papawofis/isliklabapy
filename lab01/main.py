@@ -1,58 +1,72 @@
-#00.dist
+#calc
 from calc import get_distances
-
-sites = {
-    'Moscow': (550, 370),
-    'London': (510, 510),
-    'Paris': (480, 480),
-}
-
-distances = get_distances(sites)
-print(distances)
+print(get_distances())
 
 #01.cir
-from circle import area, in_circle
-
-radius = 42
-
-# Площадь круга с точностью 4 знака
-s = area(radius)
-print(f"{s:.4f}")
-
-# Первая точка
-point = (23, 34)
-print(in_circle(point, radius))
-
-# Вторая точка
-point2 = (30, 30)
-print(in_circle(point2, radius))
+from circle import ps,fp,sp
+print(ps())
+print(fp())
+print(sp())
 
 #02.oper
 from expr import solve_25, calculate, check
 
-# Решение
 res = calculate()
 print(res)
-
-# Проверка
-print(check("1*(2+3)*4+5"))
-
-# Вывод выражения
 print(f"Решение: {solve_25()} = 25")
 
 #3.mov
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 from movies import first, last, second, second_last, get_movies
 
-mf = 'Терминатор, Пятый элемент, Аватар, Чужие, Назад в будущее'
+print(first())
+print(last())
+print(second())
+print(second_last())
 
-# Способ 1 - по отдельности
-print(first(mf))
-print(last(mf))
-print(second(mf))
-print(second_last(mf))
+print("---")
+#4.fam
+from family import ors , ro
+
+print(ro())
+print(ors())
+
+print("---")
+#5.zoo
+
+from zoo import bear, birds, elep, find
+print(bear())
+print(birds())
+print(elep())
+print(find())
 
 print("---")
 
+#6.song
+from song import zp, pes;
+print(zp())
+print(pes())
+
+print("---")
+#7 secr
+from sec import mess
+
+print(mess())
+
+print("---")
+
+#8 gard
+from gard import res
+print(res())
+
+print("---")
+#9 shop
+
+from shop import zd
+    
+print(zd())
+
+print("---")
+#10 store
+
+from store import res
+print(res())
