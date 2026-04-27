@@ -135,4 +135,4 @@ if __name__ == "__main__":
 
 [Пакеты в Python](https://yandex.ru/video/preview/6795768651042013197?from=tabbar&parent-reqid=1777280500309801-18023372361586210236-balancer-l7leveler-kubr-yp-vla-11-BAL&text=пакеты+в+питоне)
 
-[Модуль string в Python](https://yandex.ru/video/preview/7556322058098179161?from=tabbar&parent-reqid=1777280528378776-1632421795017964669-balancer-l7leveler-kubr-yp-vla-11-BAL&reqid=1777280500309801-18023372361586210236-balancer-l7leveler-kubr-yp-vla-11-BAL&suggest_reqid=252038585173062242105017665169894&text=ткинтер+фреймворк)
+[Модуль Tkinker в Python](https://yandex.ru/video/preview/7556322058098179161?from=tabbar&parent-reqid=1777280528378776-1632421795017964669-balancer-l7leveler-kubr-yp-vla-11-BAL&reqid=1777280500309801-18023372361586210236-balancer-l7leveler-kubr-yp-vla-11-BAL&suggest_reqid=252038585173062242105017665169894&text=ткинтер+фреймворк)
