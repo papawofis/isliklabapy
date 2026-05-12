@@ -5,9 +5,30 @@
     - приложение должно быть написано с применением ОО парадигмы
     - исключительные ситуации должны обрабатываться с использованием собственных исключений
     - GUI/TUI фреймворки не должны повторяться в группе
+# Морской бой (Sea Battle)
 
 
+### Цветовая индикация:
+- **Синий** - вода (не стреляли)
+- **Белый** - промах
+- **Оранжевый** - раненый корабль
+- **Красный** - уничтоженный корабль
+- **Серый** - ваш корабль (виден только на левой доске)
+- **Скрыты** - корабли компьютера (не видны до попадания)
 
+  
+### Требования:
+- Python 3.6 или выше
+- Tkinter (обычно входит в стандартную установку Python)
+
+### Установка и запуск:
+
+1. **Сохраните код** в файл с расширением `.py`, например:
+   ```bash
+   sea_battle.py
+
+
+### Ход работы :
 ```python
 import tkinter as tk
 from tkinter import messagebox
@@ -375,3 +396,19 @@ if __name__ == "__main__":
     App(tk.Tk())          # Создаем окно и приложение
     tk.mainloop()         # Запускаем главный цикл обработки событий
 ```
+
+
+##### Результат:
+<img width="827" height="368" alt="image" src="https://github.com/user-attachments/assets/2fa54265-8237-4712-854b-db8cfa584ef1" />
+
+
+
+##### Используемые материалы:
+
+[Пакеты в Python](https://yandex.ru/video/preview/6795768651042013197?from=tabbar&parent-reqid=1777280500309801-18023372361586210236-balancer-l7leveler-kubr-yp-vla-11-BAL&text=пакеты+в+питоне)
+
+[Модуль Tkinker в Python](https://yandex.ru/video/preview/7556322058098179161?from=tabbar&parent-reqid=1777280528378776-1632421795017964669-balancer-l7leveler-kubr-yp-vla-11-BAL&reqid=1777280500309801-18023372361586210236-balancerl7leveler-kubr-yp-vla-11-BAL&suggest_reqid=252038585173062242105017665169894&text=ткинтер+фреймворк)
+
+[Наследственность в Python](https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://www.youtube.com/watch%3Fv%3D4ehsnUQ0P2A&ved=2ahUKEwjH8cz1_LKUAxVbORAIHU53A0YQtwJ6BAgHEAE&usg=AOvVaw13KQS7XgI33heXzM-9zY2P)
+
+[Инкапсуляция в Python](https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://www.youtube.com/watch%3Fv%3DQX5ShMsI9RU&ved=2ahUKEwiw8pOl_bKUAxVmIBAIHbCPCg0QtwJ6BAgJEAE&usg=AOvVaw3P8SshscuTYoBB-EohCbkk)
